@@ -28,20 +28,21 @@ public:
 	       i++;
 	       }
 	       
-	       while(arr[neg]>=0 && neg<n ){
+	       while(arr[neg]>=0  ){
 	           neg++;
 	       }
 	       
-	       if(neg<n){
+	      if(neg <n){
 	       temp[i]=arr[neg];
 	       neg++;
 	       i++;
-	       }
 	       
+	      }
 	   }
 	   for(int i =0;i<n;i++){
 	       arr[i]=temp[i];
 	   }
+	   
 	   
 	   
 	}
